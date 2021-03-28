@@ -26,7 +26,7 @@
         android:layout_marginTop="30dp"
         android:ems="10"
         android:hint="@string/minutos_chamada_local"
-        android:inputType="numberDecimal"
+        android:inputType="number"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/valorAssinatura" />
@@ -38,7 +38,7 @@
         android:layout_marginTop="30dp"
         android:ems="10"
         android:hint="@string/minutos_chamada_celular"
-        android:inputType="numberDecimal"
+        android:inputType="number"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/chamadaLocal" />

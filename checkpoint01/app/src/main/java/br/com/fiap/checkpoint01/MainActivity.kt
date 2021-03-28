@@ -19,10 +19,7 @@ class MainActivity : AppCompatActivity() {
 
         val addIntegrantes = AlertDialog.Builder(this)
             .setTitle("Integrantes do grupo:")
-            .setMessage("""
-                Carolina Gomes da Silva
-                João Carlos Silva Muniz
-                Luana Cunha Hitmomi Maruya""")
+            .setMessage("Carolina Gomes da Silva \nJoão Carlos Silva Muniz \nLuana Cunha Hitomi Maruya")
             .setPositiveButton("OK") { _, _ ->
                 Toast.makeText(this, "Obrigado!", Toast.LENGTH_SHORT).show()
             }.create()

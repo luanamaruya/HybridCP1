@@ -11,7 +11,7 @@ class ResultadoContaTelefoneActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_resultado_conta_telefone)
 
-        val resultSignature = intent.getFloatExtra("totalSignature", 0f)
+        val resultSignature = intent.getDoubleExtra("totalSignature", 0.0)
         val resultTotalLocal = intent.getDoubleExtra("totalLocal", 0.0)
         val resultTotalCell = intent.getDoubleExtra("totalCell", 0.0)
         val resultValueTotal = intent.getDoubleExtra("valueTotal", 0.0)
@@ -25,9 +25,5 @@ class ResultadoContaTelefoneActivity : AppCompatActivity() {
         txvValorChamadaLocal.setText(txvResultTotalLocal)
         txvValorChamadaCelular.setText(txvResultTotalCell)
         txvValorTotal.setText(txvResultValueTotal)
-    }
-
-    override fun finish() {
-        super.finish()
     }
 }

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">checkpoint01</string>
+    <string name="app_name">CheckPoint #01</string>
     <string name="soma">Soma</string>
     <string name="subtracao">Subtração</string>
     <string name="multiplicacao">Multiplicação</string>
