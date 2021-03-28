@@ -4,4 +4,21 @@
     <string name="subtracao">Subtração</string>
     <string name="multiplicacao">Multiplicação</string>
     <string name="divisao">Divisão</string>
+    <string name="operacao">Operação</string>
+    <string name="valor_2">Valor 2</string>
+    <string name="calculadora">CALCULADORA</string>
+    <string name="conta_telefonica">CONTA TELEFÔNICA</string>
+    <string name="valor_da_assinatura">Valor da Assinatura</string>
+    <string name="minutos_chamada_local">Minutos Chamada Local</string>
+    <string name="minutos_chamada_celular">Minutos Chamada Celular</string>
+    <string name="calcular">Calcular</string>
+    <string name="assinatura">Assinatura :</string>
+    <string name="valor_1">Valor 1</string>
+    <string name="valor_total">Valor total :</string>
+    <string name="valor_chamada_celular">Valor Chamada Celular</string>
+    <string name="chamada_local">Chamada local :</string>
+    <string name="valor_chamada_local">Valor Chamada Local</string>
+    <string name="valor_assinatura">Valor Assinatura</string>
+    <string name="chamada_celular">Chamada celular :</string>
+    <string name="integrantes">INTEGRANTES</string>
 </resources>

@@ -9,8 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Checkpoint01">
-        <activity android:name=".ContaTelefonicaActivity"></activity>
-        <activity android:name=".CalculadoraActivity" />
+        <activity android:name=".ContaTelefonicaActivity"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".CalculadoraActivity"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".ResultadoContaTelefoneActivity"
+            android:parentActivityName=".ContaTelefonicaActivity"/>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

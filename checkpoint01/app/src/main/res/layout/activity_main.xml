@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="76dp"
         android:paddingHorizontal="16dp"
-        android:text="CALCULADORA"
+        android:text="@string/calculadora"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -23,7 +23,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
-        android:text="CONTA TELEFÔNICA"
+        android:text="@string/conta_telefonica"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnCalculadora" />
@@ -33,7 +33,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
-        android:text="INTEGRANTES"
+        android:text="@string/integrantes"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnConta" />
