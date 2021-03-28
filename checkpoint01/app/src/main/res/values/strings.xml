@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">checkpoint01</string>
+    <string name="soma">Soma</string>
+    <string name="subtracao">Subtração</string>
+    <string name="multiplicacao">Multiplicação</string>
+    <string name="divisao">Divisão</string>
 </resources>

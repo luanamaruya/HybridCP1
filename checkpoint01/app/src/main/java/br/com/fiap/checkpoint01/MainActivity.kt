@@ -1,5 +1,6 @@
 package br.com.fiap.checkpoint01
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
@@ -10,6 +11,11 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        btnCalculadora.setOnClickListener{
+            val mIntent = Intent(this, CalculadoraActivity::class.java)
+            this.startActivity(mIntent)
+        }
 
         val addIntegrantes = AlertDialog.Builder(this)
             .setTitle("Integrantes do grupo:")
@@ -23,6 +29,12 @@ class MainActivity : AppCompatActivity() {
         btnIntegrantes.setOnClickListener {
             addIntegrantes.show()
         }
+
+        btnConta.setOnClickListener {
+            val mIntent = Intent(this, ContaTelefonicaActivity::class.java)
+            this.startActivity(mIntent)
+        }
+
     }
 }
 
