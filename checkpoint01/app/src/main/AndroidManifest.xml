@@ -15,7 +15,10 @@
             android:parentActivityName=".MainActivity"/>
         <activity android:name=".ResultadoContaTelefoneActivity"
             android:parentActivityName=".ContaTelefonicaActivity"/>
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".SplashActivity"
+            android:theme="@style/Theme.Checkpoint01.NoActionBar"
+            >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
